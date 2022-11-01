@@ -1,0 +1,18 @@
+print()
+print("=-"*60)
+print()
+print("----------------Modulo do numero-----------------")
+print()
+print("=-"*60)
+print() 
+
+n1=int(input("Voce deseja descobrir o modulo de qual numero: "))
+print()
+print("=-"*60)
+print()
+n2= abs(n1)
+
+print(n2)
+print()
+print("=-"*60)
+print()

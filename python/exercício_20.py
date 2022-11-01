@@ -1,0 +1,17 @@
+print()
+print("=-"*60)
+print()
+print("--------------Parcelamento de mercadoria------------------")
+print()
+print("=-"*60)
+print()
+mercadoria=float(input("Digite o valor da sua mercadoria: "))
+total= mercadoria/3
+total1= total /2
+print()
+print("=-"*60)
+print()
+print(f'O valor a vista ficou {total:,.2f} e a parcela ficou {total1:,.2f}')
+print()
+print("=-"*60)
+print()

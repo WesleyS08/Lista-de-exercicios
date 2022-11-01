@@ -1,0 +1,22 @@
+print()
+print("=-"*60)
+print()
+print("----------------Valor par ou não-----------------")
+print()
+print("=-"*60)
+print() 
+
+n1=int(input("Digite o numero que deseja saber se é par ou impar: "))
+print()
+print("=-"*60)
+print()
+if n1 % 2 == 0:
+    print(f'O valor {n1} é par')
+    print()
+    print("=-"*60)
+    print()
+else:
+    print(f'O valor {n1} é impar')
+    print()
+    print("=-"*60)
+    print()

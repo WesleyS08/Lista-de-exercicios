@@ -1,0 +1,18 @@
+print()
+print("=-"*60)
+print()
+print("--------------Agencia do cartão de credito------------------")
+print()
+print("=-"*60)
+print()
+n1=int(input("Digite os 4 numeros da conta: "))
+n = str(n1)
+a = int(n[0])
+b= int(n[1])
+c = int(n[2])
+d =int(n[3])
+age = (a * 5) + (b * 4)+(c *3)+(d * 2)
+
+age1= (age / 11) - 11 
+n2= round(age1)
+print("O numero da conta é : {}{}".format(n1, n2))
